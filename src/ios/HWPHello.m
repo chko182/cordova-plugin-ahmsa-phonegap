@@ -51,7 +51,7 @@ NSURLCredential* credentials;
                                resultWithStatus:CDVCommandStatus_OK
                                messageAsString:msg];
 
-    [self success:result callbackId:callbackId];
+    [self.commandDelegate sendPluginResult:result callbackId:callbackId];
 
 }
 
@@ -70,7 +70,7 @@ NSURLCredential* credentials;
                                resultWithStatus:CDVCommandStatus_OK
                                messageAsString:msg];
 
-    [self success:result callbackId:callbackId];
+    [self.commandDelegate sendPluginResult:result callbackId:callbackId];
 }
 
 - (void)getDeviceInfo:(CDVInvokedUrlCommand*)command
@@ -88,7 +88,7 @@ NSURLCredential* credentials;
                                resultWithStatus:CDVCommandStatus_OK
                                messageAsString:msg];
 
-    [self success:result callbackId:callbackId];
+    [self.commandDelegate sendPluginResult:result callbackId:callbackId];
 }
 
 - (void)dataAfaria:(CDVInvokedUrlCommand*)command
