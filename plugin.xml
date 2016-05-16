@@ -41,6 +41,7 @@
     <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
     <source-file src="src/ios/SeedDataAPI.h" target-dir="HelloPlugin"/>
+    <source-file src="src/ios/AppDelegate.h" target-dir="HelloPlugin"/>
   </platform>
 
   <platform name="wp7">
