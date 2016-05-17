@@ -7,6 +7,7 @@
 - (void) getDeviceInfo:(CDVInvokedUrlCommand*)command;
 - (void) getPlataforma:(CDVInvokedUrlCommand*)command;
 - (void) dataAfaria:(CDVInvokedUrlCommand*)command;
+- (BOOL) initSLL;
 
 @property (nonatomic, retain) NSURLCredential* credentials;
 
