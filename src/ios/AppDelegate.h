@@ -31,7 +31,7 @@
 #define kAppScheme @"ahmsaplugin://"
 #define kURLscheme @"ahmsaplugin"
 
-@interface AppDelegate : CDVAppDelegate {}
+@interface AppDelegate : CDV {}
 
 - (bool) initAfariaLibrary;
 
