@@ -26,12 +26,12 @@
 //
 
 #import <Cordova/CDVViewController.h>
-#import <CDVAppDelegate.h>
+#import <Cordova/CDVAppDelegate.h>
 
 #define kAppScheme @"ahmsaplugin://"
 #define kURLscheme @"ahmsaplugin"
 
-@interface AppDelegate : CDV {}
+@interface AppDelegate : CDVAppDelegate {}
 
 - (bool) initAfariaLibrary;
 
