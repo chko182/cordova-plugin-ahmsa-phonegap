@@ -26,7 +26,7 @@
 //
 
 #import <Cordova/CDVViewController.h>
-#import <Cordova/CDVAppDelegate.h>
+#import <CordovaLib/CDVAppDelegate.h>
 
 #define kAppScheme @"ahmsaplugin://"
 #define kURLscheme @"ahmsaplugin"
