@@ -45,6 +45,7 @@
     <source-file src="src/ios/CDVAppDelegate.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVViewController.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVAvailability.h" target-dir="HelloPlugin"/>
+    <source-file src="src/ios/CDVInvokedUrlCommand.h" target-dir="HelloPlugin"/>
   </platform>
 
   <platform name="wp7">
