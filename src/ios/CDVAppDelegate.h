@@ -18,7 +18,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "CDVViewController.h"
+#import <Cordova/CDVViewController.h>
 
 @interface CDVAppDelegate : NSObject <UIApplicationDelegate>{}
 
