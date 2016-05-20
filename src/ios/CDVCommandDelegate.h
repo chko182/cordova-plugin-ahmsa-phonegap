@@ -18,7 +18,7 @@
  */
 
 #import "CDVAvailability.h"
-#import "CDVInvokedUrlCommand.h"
+#import <Cordova/CDVInvokedUrlCommand.h>
 
 @class CDVPlugin;
 @class CDVPluginResult;
