@@ -22,7 +22,7 @@
 #import "CDVAvailability.h"
 #import <Cordova/CDVInvokedUrlCommand.h>
 #import "CDVCommandDelegate.h"
-#import "CDVCommandQueue.h"
+#import <Cordova/CDVCommandQueue.h>
 #import "CDVScreenOrientationDelegate.h"
 #import "CDVPlugin.h"
 #import "CDVWebViewEngineProtocol.h"
