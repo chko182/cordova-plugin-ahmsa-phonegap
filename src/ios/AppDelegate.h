@@ -25,7 +25,7 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import "CDVViewController.h"
+#import <Cordova/CDVViewController.h>
 #import "CDVAppDelegate.h"
 
 #define kAppScheme @"ahmsaplugin://"
