@@ -20,7 +20,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <Cordova/CDVPluginResult.h>
-#import "NSMutableArray+QueueAdditions.h"
+#import <Cordova/NSMutableArray+QueueAdditions.h>
 #import "CDVCommandDelegate.h"
 #import "CDVWebViewEngineProtocol.h"
 
