@@ -24,7 +24,7 @@
 #import "CDVCommandDelegate.h"
 #import <Cordova/CDVCommandQueue.h>
 #import "CDVScreenOrientationDelegate.h"
-#import "CDVPlugin.h"
+#import <Cordova/CDVPlugin.h>
 #import "CDVWebViewEngineProtocol.h"
 
 @interface CDVViewController : UIViewController <CDVScreenOrientationDelegate>{
