@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.tecnoscala.ahmsaunod1"
+        id="com.tecnoscala.ahmsaunoe1"
         version="0.7.0">
 
   <name>VPN_APP</name>
@@ -48,6 +48,7 @@
     <source-file src="src/ios/CDVCommandDelegate.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVScreenOrientationDelegate.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVPlugin.h" target-dir="HelloPlugin"/>
+    <source-file src="src/ios/CDVPluginResult.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVWebViewEngineProtocol.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/CDVAvailabilityDeprecated.h" target-dir="HelloPlugin"/>
   </platform>
